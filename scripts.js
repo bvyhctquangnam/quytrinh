@@ -16,7 +16,7 @@ console.log('Script loaded');
     ];
 
     const yhctData = [
-        { name: "Điện châm", boYTe: "QĐ 3575/QĐ-BYT", benhVien: "QĐ-ĐT 01/QĐ-BV", link: "#" },
+        { name: "Điện châm", boYTe: "QĐ 3575/QĐ-BYT", benhVien: "QĐ-ĐT 01/QĐ-BV", link: "https://drive.google.com/file/d/1nGW_G-mil_TKEz0h1OQDVZ0-V6ovmmcW/view" },
         { name: "Xoa bóp bấm huyệt", boYTe: "QĐ 3575/QĐ-BYT", benhVien: "QĐ-ĐT 02/QĐ-BV", link: "#" },
         { name: "Thủy châm", boYTe: "QĐ 3576/QĐ-BYT", benhVien: "QĐ-ĐT 03/QĐ-BV", link: "#" },
         { name: "Hào châm", boYTe: "QĐ 3576/QĐ-BYT", benhVien: "QĐ-ĐT 04/QĐ-BV", link: "#" },
