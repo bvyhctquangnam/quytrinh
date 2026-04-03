@@ -21,12 +21,12 @@ console.log('Script loaded');
         { name: "Thủy châm", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1LrYhWIo6g861O3BiEbfGhbs7pRLewyhN/view" },
 	{ name: "Cấy chỉ điều trị", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1HtCcNOhYsAVfPSldUxFYzZtTxU6kJ93S/view" }, 
 	{ name: "Xoa bóp bấm huyệt", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/118N6z394fSupQ7OuVH4BtBHCTyYnqO1a/view" },       
-        { name: "Cứu ngải", boYTe: "QĐ 3577/QĐ-BYT", benhVien: "QĐ-ĐT 05/QĐ-BV", link: "#" },
-        { name: "Ôn châm", boYTe: "QĐ 3577/QĐ-BYT", benhVien: "QĐ-ĐT 06/QĐ-BV", link: "#" },        
-        { name: "Giác hơi", boYTe: "QĐ 3578/QĐ-BYT", benhVien: "QĐ-ĐT 08/QĐ-BV", link: "#" },
+        { name: "Cứu ngải", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1szJGj-2uuIiel1LY4Knfu8JLQOkWm9Zl/view" },
+	{ name: "Ngâm thuốc Y học cổ truyền bộ phận", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1SEKkVJpIWLynuBh8K4tKM8w77EScWBqb/view" },                
+        { name: "Giác hơi", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1DdPjcXlIUUPwkhxB-9f3VI0xNzjzNNIU/view" },
+	{ name: "Ôn châm", boYTe: "QĐ 3577/QĐ-BYT", benhVien: "QĐ-ĐT 06/QĐ-BV", link: "#" },
         { name: "Nhĩ châm", boYTe: "QĐ 3579/QĐ-BYT", benhVien: "QĐ-ĐT 09/QĐ-BV", link: "#" },
-        { name: "Xông hơi thuốc y học cổ truyền", boYTe: "QĐ 3579/QĐ-BYT", benhVien: "QĐ-ĐT 10/QĐ-BV", link: "#" },
-        { name: "Ngâm chân thuốc", boYTe: "QĐ 3580/QĐ-BYT", benhVien: "QĐ-ĐT 11/QĐ-BV", link: "#" },
+        { name: "Xông hơi thuốc y học cổ truyền", boYTe: "QĐ 3579/QĐ-BYT", benhVien: "QĐ-ĐT 10/QĐ-BV", link: "#" },        
         { name: "Chườm thuốc", boYTe: "QĐ 3580/QĐ-BYT", benhVien: "QĐ-ĐT 12/QĐ-BV", link: "#" },
         { name: "Tập dưỡng sinh", boYTe: "QĐ 3581/QĐ-BYT", benhVien: "QĐ-ĐT 13/QĐ-BV", link: "#" }
     ];
