@@ -17,12 +17,12 @@ console.log('Script loaded');
 
     const yhctData = [
         { name: "Hào châm", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1fxSmQiySQcv1dUhPQHvblEzDqtZCxHER/view" },
-	{ name: "Điện châm", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1bbmuJhqAawKMZ762rsPJwk0v-pxo4Wkd/view" },
-        { name: "Xoa bóp bấm huyệt", boYTe: "QĐ 3575/QĐ-BYT", benhVien: "QĐ-ĐT 02/QĐ-BV", link: "#" },
-        { name: "Thủy châm", boYTe: "QĐ 3576/QĐ-BYT", benhVien: "QĐ-ĐT 03/QĐ-BV", link: "#" },        
+	{ name: "Điện châm", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1bbmuJhqAawKMZ762rsPJwk0v-pxo4Wkd/view" },        
+        { name: "Thủy châm", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1LrYhWIo6g861O3BiEbfGhbs7pRLewyhN/view" },
+	{ name: "Cấy chỉ điều trị", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1HtCcNOhYsAVfPSldUxFYzZtTxU6kJ93S/view" }, 
+	{ name: "Xoa bóp bấm huyệt", boYTe: "QĐ 3575/QĐ-BYT", benhVien: "QĐ-ĐT 02/QĐ-BV", link: "#" },       
         { name: "Cứu ngải", boYTe: "QĐ 3577/QĐ-BYT", benhVien: "QĐ-ĐT 05/QĐ-BV", link: "#" },
-        { name: "Ôn châm", boYTe: "QĐ 3577/QĐ-BYT", benhVien: "QĐ-ĐT 06/QĐ-BV", link: "#" },
-        { name: "Cấy chỉ", boYTe: "QĐ 3578/QĐ-BYT", benhVien: "QĐ-ĐT 07/QĐ-BV", link: "#" },
+        { name: "Ôn châm", boYTe: "QĐ 3577/QĐ-BYT", benhVien: "QĐ-ĐT 06/QĐ-BV", link: "#" },        
         { name: "Giác hơi", boYTe: "QĐ 3578/QĐ-BYT", benhVien: "QĐ-ĐT 08/QĐ-BV", link: "#" },
         { name: "Nhĩ châm", boYTe: "QĐ 3579/QĐ-BYT", benhVien: "QĐ-ĐT 09/QĐ-BV", link: "#" },
         { name: "Xông hơi thuốc y học cổ truyền", boYTe: "QĐ 3579/QĐ-BYT", benhVien: "QĐ-ĐT 10/QĐ-BV", link: "#" },
