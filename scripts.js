@@ -1,18 +1,12 @@
 console.log('Script loaded');
     // ========== DỮ LIỆU QUY TRÌNH ==========
     const quanlyData = [
-        { name: "Quy trình khám bệnh BHYT", boYTe: "TT 32/2023/TT-BYT", benhVien: "QĐ-QL 01/QĐ-BV", link: "#" },
-        { name: "Quy trình hội chẩn liên khoa", boYTe: "TT 31/2021/TT-BYT", benhVien: "QĐ-QL 02/QĐ-BV", link: "#" },
-        { name: "Quy trình chuyển viện (tuyến trên)", boYTe: "TT 34/2022/TT-BYT", benhVien: "QĐ-QL 03/QĐ-BV", link: "#" },
-        { name: "Quy trình chuyển viện (tuyến dưới)", boYTe: "TT 34/2022/TT-BYT", benhVien: "QĐ-QL 04/QĐ-BV", link: "#" },
-        { name: "Quy trình tiếp nhận & cấp cứu ban đầu", boYTe: "TT 33/2021/TT-BYT", benhVien: "QĐ-QL 05/QĐ-BV", link: "#" },
-        { name: "Quy trình ra viện & hẹn tái khám", boYTe: "TT 37/2023/TT-BYT", benhVien: "QĐ-QL 06/QĐ-BV", link: "#" },
-        { name: "Quy trình quản lý hồ sơ bệnh án", boYTe: "TT 46/2018/TT-BYT", benhVien: "QĐ-QL 07/QĐ-BV", link: "#" },
-        { name: "Quy trình cấp cứu ngoại viện", boYTe: "TT 23/2022/TT-BYT", benhVien: "QĐ-QL 08/QĐ-BV", link: "#" },
-        { name: "Quy trình quản lý chất lượng bệnh viện", boYTe: "QĐ 6858/QĐ-BYT", benhVien: "QĐ-QL 09/QĐ-BV", link: "#" },
-        { name: "Quy trình báo cáo sự cố y khoa", boYTe: "TT 43/2021/TT-BYT", benhVien: "QĐ-QL 10/QĐ-BV", link: "#" },
-        { name: "Quy trình đào tạo liên tục nhân viên y tế", boYTe: "TT 22/2023/TT-BYT", benhVien: "QĐ-QL 11/QĐ-BV", link: "#" },
-        { name: "Quy trình kiểm tra, giám sát chuyên môn", boYTe: "QĐ 2150/QĐ-BYT", benhVien: "QĐ-QL 12/QĐ-BV", link: "#" }
+        { name: "Quy trình khám bệnh BHYT", boYTe: "", benhVien: "", link: "#" },
+        { name: "Quy trình hội chẩn", boYTe: "", benhVien: "", link: "#" },
+        { name: "Quy trình chuyển viện", boYTe: "", benhVien: "", link: "#" },        
+        { name: "Quy trình quản lý hồ sơ bệnh án", boYTe: "", benhVien: "", link: "#" },        
+        { name: "Quy trình báo cáo sự cố y khoa", boYTe: "", benhVien: "", link: "#" },        
+        { name: "Quy trình kiểm tra, giám sát chuyên môn", boYTe: "", benhVien: "", link: "#" }
     ];
 
     const yhctData = [
@@ -23,87 +17,61 @@ console.log('Script loaded');
 	{ name: "Xoa bóp bấm huyệt", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/118N6z394fSupQ7OuVH4BtBHCTyYnqO1a/view" },       
         { name: "Cứu ngải", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1szJGj-2uuIiel1LY4Knfu8JLQOkWm9Zl/view" },
 	{ name: "Ngâm thuốc Y học cổ truyền bộ phận", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1SEKkVJpIWLynuBh8K4tKM8w77EScWBqb/view" },                
-        { name: "Giác hơi", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1DdPjcXlIUUPwkhxB-9f3VI0xNzjzNNIU/view" },
-	{ name: "Ôn châm", boYTe: "QĐ 3577/QĐ-BYT", benhVien: "QĐ-ĐT 06/QĐ-BV", link: "#" },
-        { name: "Nhĩ châm", boYTe: "QĐ 3579/QĐ-BYT", benhVien: "QĐ-ĐT 09/QĐ-BV", link: "#" },
-        { name: "Xông hơi thuốc y học cổ truyền", boYTe: "QĐ 3579/QĐ-BYT", benhVien: "QĐ-ĐT 10/QĐ-BV", link: "#" },        
-        { name: "Chườm thuốc", boYTe: "QĐ 3580/QĐ-BYT", benhVien: "QĐ-ĐT 12/QĐ-BV", link: "#" },
-        { name: "Tập dưỡng sinh", boYTe: "QĐ 3581/QĐ-BYT", benhVien: "QĐ-ĐT 13/QĐ-BV", link: "#" }
+        { name: "Giác hơi", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1DdPjcXlIUUPwkhxB-9f3VI0xNzjzNNIU/view" }	
     ];
     
     const phcnData = [
-        { name: "Điện xung trị liệu (TENS)", boYTe: "TT 21/2022/TT-BYT", benhVien: "QĐ-PHCN 01/QĐ-BV", link: "#" },
-        { name: "Siêu âm điều trị", boYTe: "TT 21/2022/TT-BYT", benhVien: "QĐ-PHCN 02/QĐ-BV", link: "#" },
-        { name: "Hồng ngoại trị liệu", boYTe: "TT 21/2022/TT-BYT", benhVien: "QĐ-PHCN 03/QĐ-BV", link: "#" },
-        { name: "Tử ngoại trị liệu", boYTe: "TT 21/2022/TT-BYT", benhVien: "QĐ-PHCN 04/QĐ-BV", link: "#" },
-        { name: "Sóng ngắn trị liệu", boYTe: "TT 22/2022/TT-BYT", benhVien: "QĐ-PHCN 05/QĐ-BV", link: "#" },
-        { name: "Xoa bóp phục hồi chức năng", boYTe: "TT 22/2022/TT-BYT", benhVien: "QĐ-PHCN 06/QĐ-BV", link: "#" },
-        { name: "Vận động trị liệu", boYTe: "TT 23/2022/TT-BYT", benhVien: "QĐ-PHCN 07/QĐ-BV", link: "#" },
-        { name: "Điều trị bằng nước khoáng nóng", boYTe: "TT 23/2022/TT-BYT", benhVien: "QĐ-PHCN 08/QĐ-BV", link: "#" },
-        { name: "Kéo giãn cột sống", boYTe: "TT 24/2022/TT-BYT", benhVien: "QĐ-PHCN 09/QĐ-BV", link: "#" }
+        { name: "Điều trị bằng sóng ngắn", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },
+        { name: "Điều trị bằng từ trường", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },
+        { name: "Điều trị bằng các dòng điện xung", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },        
+        { name: "Điều trị bằng siêu âm", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },
+        { name: "Điều trị bằng sóng xung kích", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },
+        { name: "Điều trị bằng dòng giao thoa", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },        
+        { name: "Điều trị bằng máy kéo giãn cột sống", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },
+	{ name: "Điều trị bằng tia hồng ngoại", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },
+	{ name: "Kỹ thuật xoa bóp vùng", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" }
     ];
     
     const dienquangData = [
-        { name: "Siêu âm ổ bụng tổng quát", boYTe: "QĐ 4545/QĐ-BYT", benhVien: "QĐ-CĐHA 01/QĐ-BV", link: "#" },
-        { name: "Siêu âm sản khoa", boYTe: "QĐ 4545/QĐ-BYT", benhVien: "QĐ-CĐHA 02/QĐ-BV", link: "#" },
-        { name: "Siêu âm tim", boYTe: "QĐ 4546/QĐ-BYT", benhVien: "QĐ-CĐHA 03/QĐ-BV", link: "#" },
-        { name: "Siêu âm tuyến giáp", boYTe: "QĐ 4546/QĐ-BYT", benhVien: "QĐ-CĐHA 04/QĐ-BV", link: "#" },
-        { name: "X-quang phổi thẳng, nghiêng", boYTe: "QĐ 4547/QĐ-BYT", benhVien: "QĐ-CĐHA 05/QĐ-BV", link: "#" },
-        { name: "X-quang cột sống cổ, lưng", boYTe: "QĐ 4547/QĐ-BYT", benhVien: "QĐ-CĐHA 06/QĐ-BV", link: "#" },
-        { name: "X-quang khớp gối, khớp háng", boYTe: "QĐ 4548/QĐ-BYT", benhVien: "QĐ-CĐHA 07/QĐ-BV", link: "#" },
-        { name: "Chụp cắt lớp vi tính (CT)", boYTe: "QĐ 4549/QĐ-BYT", benhVien: "QĐ-CĐHA 08/QĐ-BV", link: "#" }
+        { name: "Siêu âm ổ bụng (gan mật, tụy, lách, thận, bàng quang)", boYTe: "623/QĐ-BYT", benhVien: "", link: "#" },
+	{ name: "Siêu âm khớp", boYTe: "623/QĐ-BYT", benhVien: "", link: "#" },        
+        { name: "Chụp X-quang ngực thẳng", boYTe: "623/QĐ-BYT", benhVien: "", link: "#" },
+        { name: "Chụp X-quang cột sống thắt lưng thẳng, nghiêng", boYTe: "623/QĐ-BYT", benhVien: "", link: "#" },
+        { name: "Chụp X-quang cột sống cổ thẳng, nghiêng", boYTe: "623/QĐ-BYT", benhVien: "", link: "#" },
+        { name: "Chụp X-quang khớp gối thẳng, nghiêng hoặc chếch", boYTe: "623/QĐ-BYT", benhVien: "", link: "#" }
     ];
     
     const noikhoaData = [
-        { name: "Nội soi ống cứng + tiêm xơ búi trĩ", boYTe: "QĐ 2156/QĐ-BYT", benhVien: "QĐ-NK 01/QĐ-BV", link: "#" },
-        { name: "Nội soi dạ dày thực quản", boYTe: "QĐ 2157/QĐ-BYT", benhVien: "QĐ-NK 02/QĐ-BV", link: "#" },
-        { name: "Nội soi đại tràng", boYTe: "QĐ 2157/QĐ-BYT", benhVien: "QĐ-NK 03/QĐ-BV", link: "#" },
-        { name: "Đặt sonde dạ dày", boYTe: "TT 28/2020/TT-BYT", benhVien: "QĐ-NK 04/QĐ-BV", link: "#" },
-        { name: "Chọc dò dịch màng bụng", boYTe: "TT 28/2020/TT-BYT", benhVien: "QĐ-NK 05/QĐ-BV", link: "#" },
-        { name: "Đặt catheter tĩnh mạch trung tâm", boYTe: "TT 29/2020/TT-BYT", benhVien: "QĐ-NK 06/QĐ-BV", link: "#" },
-        { name: "Thông tiểu vô khuẩn", boYTe: "TT 29/2020/TT-BYT", benhVien: "QĐ-NK 07/QĐ-BV", link: "#" }
+        { name: "Nội soi ống cứng + tiêm xơ búi trĩ", boYTe: "", benhVien: "", link: "#" },        
+        { name: "Thông tiểu", boYTe: "", benhVien: "", link: "#" }
     ];
 
     const chamsocData = [
-        { name: "Quy trình điều dưỡng chăm sóc YHCT", boYTe: "TT 45/2022/TT-BYT", benhVien: "QĐ-CS 01/QĐ-BV", link: "#" },
-        { name: "Quy trình chăm sóc sau tiêm xơ búi trĩ", boYTe: "TT 45/2022/TT-BYT", benhVien: "QĐ-CS 02/QĐ-BV", link: "#" },
-        { name: "Quy trình chăm sóc bệnh nhân nặng", boYTe: "TT 47/2023/TT-BYT", benhVien: "QĐ-CS 03/QĐ-BV", link: "#" },
-        { name: "Quy trình chăm sóc vết thương", boYTe: "TT 46/2022/TT-BYT", benhVien: "QĐ-CS 04/QĐ-BV", link: "#" },
-        { name: "Quy trình phòng ngừa loét ép", boYTe: "TT 46/2022/TT-BYT", benhVien: "QĐ-CS 05/QĐ-BV", link: "#" },
-        { name: "Quy trình chăm sóc bệnh nhân hậu phẫu", boYTe: "TT 47/2022/TT-BYT", benhVien: "QĐ-CS 06/QĐ-BV", link: "#" },
-        { name: "Quy trình chăm sóc bệnh nhân thở máy", boYTe: "TT 47/2022/TT-BYT", benhVien: "QĐ-CS 07/QĐ-BV", link: "#" },
-        { name: "Quy trình dinh dưỡng lâm sàng", boYTe: "TT 48/2022/TT-BYT", benhVien: "QĐ-CS 08/QĐ-BV", link: "#" }
+        { name: "Quy trình chăm sóc", boYTe: "", benhVien: "", link: "#" },        
+        { name: "Quy trình dinh dưỡng", boYTe: "", benhVien: "", link: "#" }
     ];
 
-    const kskData = [
-        { name: "Quy trình xử lý chất thải rắn y tế", boYTe: "TT 20/2021/TT-BYT", benhVien: "QĐ-KSK 01/QĐ-BV", link: "#" },
-        { name: "Quy trình quản lý tập trung đồ vải", boYTe: "QĐ 3916/QĐ-BYT", benhVien: "QĐ-KSK 02/QĐ-BV", link: "#" },
-        { name: "Quy trình xử lý đồ vải", boYTe: "QĐ 3916/QĐ-BYT", benhVien: "QĐ-KSK 03/QĐ-BV", link: "#" },
-        { name: "Quy trình vệ sinh tay", boYTe: "QĐ 3916/QĐ-BYT", benhVien: "QĐ-KSK 04/QĐ-BV", link: "#" },
-        { name: "Quy trình khử khuẩn - tiệt khuẩn", boYTe: "QĐ 3916/QĐ-BYT", benhVien: "QĐ-KSK 05/QĐ-BV", link: "#" }
+    const kskData = [        
+        { name: "Quy trình vệ sinh tay", boYTe: "", benhVien: "", link: "#" },
+        { name: "Quy trình khử khuẩn - tiệt khuẩn", boYTe: "", benhVien: "", link: "#" }
     ];
 
-    const phongbenhData = [
-        { name: "Quy trình tiêm chủng mở rộng", boYTe: "TT 34/2022/TT-BYT", benhVien: "QĐ-PB 01/QĐ-BV", link: "#" },
-        { name: "Quy trình khám sàng lọc trước tiêm", boYTe: "TT 34/2022/TT-BYT", benhVien: "QĐ-PB 02/QĐ-BV", link: "#" },
-        { name: "Quy trình quản lý bệnh không lây nhiễm", boYTe: "QĐ 2158/QĐ-BYT", benhVien: "QĐ-PB 03/QĐ-BV", link: "#" },
-        { name: "Quy trình tư vấn phòng bệnh", boYTe: "TT 48/2022/TT-BYT", benhVien: "QĐ-PB 04/QĐ-BV", link: "#" },
-        { name: "Quy trình giám sát dịch tễ", boYTe: "TT 18/2022/TT-BYT", benhVien: "QĐ-PB 05/QĐ-BV", link: "#" }
+    const phongbenhData = [        
+        { name: "Quy trình quản lý bệnh không lây nhiễm", boYTe: "", benhVien: "", link: "#" },        
+        { name: "Quy trình giám sát dịch tễ", boYTe: "", benhVien: "", link: "#" }
     ];
 
-    const duocData = [
-        { name: "Quy trình Dược lâm sàng - Kiểm soát thuốc YHCT", boYTe: "TT 52/2017/TT-BYT", benhVien: "QĐ-DC 01/QĐ-BV", link: "#" },
-        { name: "Quy trình cấp phát, bảo quản thuốc", boYTe: "TT 52/2017/TT-BYT", benhVien: "QĐ-DC 02/QĐ-BV", link: "#" },
-        { name: "Quy trình quản lý thuốc gây nghiện, hướng tâm thần", boYTe: "TT 20/2020/TT-BYT", benhVien: "QĐ-DC 03/QĐ-BV", link: "#" },
-        { name: "Quy trình báo cáo ADR (phản ứng có hại của thuốc)", boYTe: "TT 22/2022/TT-BYT", benhVien: "QĐ-DC 04/QĐ-BV", link: "#" },
-        { name: "Quy trình sắc thuốc nam, thuốc bắc tập trung", boYTe: "QĐ 1452/QĐ-BYT", benhVien: "QĐ-DC 05/QĐ-BV", link: "#" },
-        { name: "Quy trình kiểm kê, nhập xuất tồn kho", boYTe: "TT 52/2017/TT-BYT", benhVien: "QĐ-DC 06/QĐ-BV", link: "#" },
-        { name: "Quy trình bào chế thuốc y học cổ truyền", boYTe: "QĐ 1453/QĐ-BYT", benhVien: "QĐ-DC 07/QĐ-BV", link: "#" },
-        { name: "Quy trình kiểm nghiệm dược phẩm", boYTe: "QĐ 1454/QĐ-BYT", benhVien: "QĐ-DC 08/QĐ-BV", link: "#" },
-        { name: "Quy trình quản lý thuốc hết hạn", boYTe: "TT 53/2017/TT-BYT", benhVien: "QĐ-DC 09/QĐ-BV", link: "#" },
-        { name: "Quy trình tư vấn và cung ứng thuốc", boYTe: "TT 54/2017/TT-BYT", benhVien: "QĐ-DC 10/QĐ-BV", link: "#" },
-        { name: "Quy trình quản lý dược mỹ phẩm", boYTe: "TT 55/2017/TT-BYT", benhVien: "QĐ-DC 11/QĐ-BV", link: "#" }
+    const duocData = [        
+        { name: "Quy trình cấp phát, bảo quản thuốc", boYTe: "", benhVien: "", link: "#" },
+        { name: "Quy trình quản lý thuốc gây nghiện, hướng tâm thần", boYTe: "", benhVien: "", link: "#" },        
+        { name: "Quy trình sắc thuốc thang", boYTe: "", benhVien: "", link: "#" }        
     ];
+
+    const emrData = [        
+        { name: "Quy trình chữ ký số", boYTe: "", benhVien: "", link: "#" },
+        { name: "Quy trình lưu trữ HSBA điện tử", boYTe: "", benhVien: "", link: "#" }        
+    ];
+
 
     const dieutriData = {
         yhct: yhctData,
@@ -197,7 +165,7 @@ console.log('Script loaded');
         currentPage = page;
         
         if (!filtered || filtered.length === 0) {
-            tableBody.innerHTML = `<tr><td colspan="4" style="text-align:center; padding:30px;">🔍 Không tìm thấy quy trình nào phù hợp</td>\(`;
+            tableBody.innerHTML = `<tr><td colspan="4" style="text-align:center; padding:30px;">🔍 Không tìm thấy quy trình nào phù hợp</td>`;
             paginationContainer.innerHTML = '';
             return;
         }
@@ -311,6 +279,10 @@ console.log('Script loaded');
             else if (tabId === 'duoc') {
                 currentFullData = duocData;
                 renderTableWithPagination(duocData, 1, '');
+            }
+	    else if (tabId === 'emr') {
+                currentFullData = emrData;
+                renderTableWithPagination(emrData, 1, '');
             }
         }
     }
