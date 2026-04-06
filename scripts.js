@@ -14,7 +14,7 @@ console.log('Script loaded');
 	{ name: "Điện châm", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1bbmuJhqAawKMZ762rsPJwk0v-pxo4Wkd/view" },        
         { name: "Thủy châm", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1LrYhWIo6g861O3BiEbfGhbs7pRLewyhN/view" },
 	{ name: "Cấy chỉ điều trị", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1HtCcNOhYsAVfPSldUxFYzZtTxU6kJ93S/view" }, 
-	{ name: "Xoa bóp bấm huyệt", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/118N6z394fSupQ7OuVH4BtBHCTyYnqO1a/view" },       
+	{ name: "Xoa bóp bấm huyệt", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1UDH40k8uTyOARJNbfOpI5KmmUB0nRLJT/view" },       
         { name: "Cứu ngải", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1szJGj-2uuIiel1LY4Knfu8JLQOkWm9Zl/view" },
 	{ name: "Ngâm thuốc Y học cổ truyền bộ phận", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1SEKkVJpIWLynuBh8K4tKM8w77EScWBqb/view" },                
         { name: "Giác hơi", boYTe: "486/QĐ-BYT", benhVien: "69/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1DdPjcXlIUUPwkhxB-9f3VI0xNzjzNNIU/view" }	
