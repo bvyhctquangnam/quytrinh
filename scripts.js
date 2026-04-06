@@ -64,7 +64,7 @@ console.log('Script loaded');
     const duocData = [        
         { name: "Quy trình cấp phát, bảo quản thuốc", boYTe: "", benhVien: "", link: "#" },
         { name: "Quy trình quản lý thuốc gây nghiện, hướng tâm thần", boYTe: "", benhVien: "", link: "#" },        
-        { name: "Quy trình sắc thuốc thang", boYTe: "5480/QĐ-BYT", benhVien: "", link: "https://drive.google.com/file/d/1_sdALYdVfuv_-45rHG2EJvzbnb4dBEZ9/view" }        
+        { name: "Quy trình sắc thuốc thang", boYTe: "5480/QĐ-BYT", benhVien: "137/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1_sdALYdVfuv_-45rHG2EJvzbnb4dBEZ9/view" }        
     ];
 
     const emrData = [        
