@@ -21,15 +21,15 @@ console.log('Script loaded');
     ];
     
     const phcnData = [
-        { name: "Điều trị bằng sóng ngắn", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },
-        { name: "Điều trị bằng từ trường", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },
-        { name: "Điều trị bằng các dòng điện xung", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },        
-        { name: "Điều trị bằng siêu âm", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },
-        { name: "Điều trị bằng sóng xung kích", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },
-        { name: "Điều trị bằng dòng giao thoa", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },        
-        { name: "Điều trị bằng máy kéo giãn cột sống", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },
-	{ name: "Điều trị bằng tia hồng ngoại", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" },
-	{ name: "Kỹ thuật xoa bóp vùng", boYTe: "3553/QĐ-BYT", benhVien: "", link: "#" }
+        { name: "Điều trị bằng sóng ngắn", boYTe: "3553/QĐ-BYT", benhVien: "68/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1rdhU7Ije8xiqJlYykGEgeYyYhWNYmC9M/view" },
+        { name: "Điều trị bằng từ trường", boYTe: "3553/QĐ-BYT", benhVien: "68/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1-zHt7wPeJbKLEE8zOIYEESvW_IG46uPU/view" },
+        { name: "Điều trị bằng các dòng điện xung", boYTe: "3553/QĐ-BYT", benhVien: "68/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1dewV9XgeR13B3mCYJP-jfgCm-0zelo27/view" },        
+        { name: "Điều trị bằng siêu âm", boYTe: "3553/QĐ-BYT", benhVien: "68/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1yBMLR-GsxtLtno8SwZ3tIDQ3f2R1B9D6/view" },
+        { name: "Điều trị bằng sóng xung kích", boYTe: "3553/QĐ-BYT", benhVien: "68/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1lRkki_zNdFPrJDWstIXGWi1fInw_WLVp/view" },
+        { name: "Điều trị bằng dòng giao thoa", boYTe: "3553/QĐ-BYT", benhVien: "68/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1o9a6-B05B41NtuDT61oNT7fjqRzjV5wt/view" },
+	{ name: "Điều trị bằng tia hồng ngoại", boYTe: "3553/QĐ-BYT", benhVien: "68/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1Ge52MRLfEF40yFq9uVb0Ngsb4YOZr297/view" },
+	{ name: "Điều trị bằng máy kéo giãn cột sống", boYTe: "3553/QĐ-BYT", benhVien: "68/QĐ-BVYHCT", link: "https://drive.google.com/file/d/1jUl53i5mQxGug1dWMQ8qCSsQ9ZMa39lb/view" },
+	{ name: "Kỹ thuật xoa bóp vùng", boYTe: "3553/QĐ-BYT", benhVien: "68/QĐ-BVYHCT", link: "https://drive.google.com/file/d/19o3ZmlDtOI4bOGO9ZrWQTT4kg1Hq6s6P/view" }
     ];
     
     const dienquangData = [
@@ -64,7 +64,7 @@ console.log('Script loaded');
     const duocData = [        
         { name: "Quy trình cấp phát, bảo quản thuốc", boYTe: "", benhVien: "", link: "#" },
         { name: "Quy trình quản lý thuốc gây nghiện, hướng tâm thần", boYTe: "", benhVien: "", link: "#" },        
-        { name: "Quy trình sắc thuốc thang", boYTe: "", benhVien: "", link: "#" }        
+        { name: "Quy trình sắc thuốc thang", boYTe: "5480/QĐ-BYT", benhVien: "", link: "https://drive.google.com/file/d/1_sdALYdVfuv_-45rHG2EJvzbnb4dBEZ9/view" }        
     ];
 
     const emrData = [        
