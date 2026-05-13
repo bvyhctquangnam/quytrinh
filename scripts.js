@@ -190,7 +190,7 @@ console.log('Script loaded');
                     <td><span class="quyetdinh-text">${item.benhVien}</span></td>
                     <td>
                         <a href="${item.link}" target="_blank" class="btn-pdf" rel="noopener noreferrer">
-                            <i class="fas fa-file-pdf"></i> File PDF
+                            <i class="fas fa-file-pdf"></i> Xem
                         </a>
                     </td>
                  </tr>
